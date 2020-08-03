@@ -48,10 +48,13 @@ togglePersonsHandler = () =>{
       );
       style.backgroundColor ='red';
     }
+
+let classes = ['red','bold'].join('  ');
+
     return (
       <div className="App">
         <h1>Hi,I am React Developer</h1>
-        <h2>This is Really..?</h2>
+        <p className={classes}><h2>This is Really..?</h2></p>
         <button
         style ={style}
          onClick={this.togglePersonsHandler}>this is  my friend</button>
