@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
+import styled from 'styled-components';
 import person from './Person/Person';
-import Radium from 'radium';
 
 class App extends Component {
   state = {
@@ -73,4 +73,4 @@ let classes = ['red','bold'].join('  ');
     }
 }
 
-export default  Radium(App);
+export default App;
