@@ -17,7 +17,7 @@ const person = (props) => {
     // <div className="Person">
     <Stylediv>
     <p>{props.children}</p> 
-     <h2>I am {props.name} {props.age}  </h2>
+     <h2>I am Pranav hegde{props.name} {props.age}  </h2>
 
     </Stylediv>);
 };
